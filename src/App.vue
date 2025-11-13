@@ -9,6 +9,10 @@ onMounted(() => {
     guitarras.value = db;
 });
 
+const increment = () => {
+    alert('Click');
+}
+
 </script>
 
 <template>
@@ -91,10 +95,7 @@ onMounted(() => {
         <h2 class="text-center">Nuestra Colección</h2>
 
         <div class="row mt-5">
-            <Guitarra
-                v-for="guitarra in guitarras"
-                :guitarra="guitarra"
-            />
+            <Guitarra v-for="guitarra in guitarras" :guitarra="guitarra" />
         </div>
     </main>
 
