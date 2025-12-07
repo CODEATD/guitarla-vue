@@ -27,11 +27,21 @@ const agregarCarrito = (guitarra) => {
     }
 }
 
+const decrementarCantidad = () => {
+    console.log('Menos...');
+}
+
+const incrementarCantidad = () => {
+    console.log('Mas...');
+}
+
 </script>
 
 <template>
     <Header
         :carrito="carrito"
+        @incrementar-cantidad="incrementarCantidad"
+        @decrementar-cantidad="decrementarCantidad"
     />
 
     <main class="container-xl mt-5">
