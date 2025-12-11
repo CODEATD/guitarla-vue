@@ -1,5 +1,7 @@
 # GuitarLA - Vue.js
 
+> **[Ver Demo en Vivo](https://guitarla-vue-codigo-con-juan.netlify.app/)** 🚀
+
 Proyecto desarrollado durante el curso **Vue.js 3 - La Guía Completa - Composition Pinia MEVN 10 Apps** en Udemy.
 
 ## Descripción
