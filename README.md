@@ -1,5 +1,27 @@
-# Vue 3 + Vite
+# GuitarLA - Vue.js
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Proyecto desarrollado durante el curso **Vue.js 3 - La Guía Completa - Composition Pinia MEVN 10 Apps** en Udemy.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Descripción
+
+Una aplicación de comercio electrónico para guitarras, construida con Vue 3 y Vite. Este proyecto demuestra el uso de la Composition API y varias características modernas de Vue.
+
+## Conceptos Aprendidos y Aplicados
+
+- **Componentes**: Estructuración y reutilización de código UI.
+- **Composition API**: Lógica de componentes más limpia y reutilizable con `setup`.
+- **Reactividad**: Uso de `ref` y `reactive` para manejo de estado.
+- **Eventos**: Manejo de eventos nativos y creación de **Custom Events** para comunicación hijo-padre.
+- **Props y Emits**: Paso de datos y eventos entre componentes.
+- **Directivas**: Uso de `v-if`, `v-for`, `v-bind`, `v-model`, etc.
+- **State Management**: Manejo de estado y reactividad avanzada con **Watch** y **Computed Properties**.
+- **Ciclo de Vida de Vue**: Uso de hooks como `onMounted`.
+- **Persistencia**: Implementación de **Local Storage** para guardar el carrito de compras.
+- **Despliegue**: Preparación y build del proyecto para producción.
+
+## Tecnologías
+
+- Vue.js 3
+- Vite
+- JavaScript (ES6+)
+- CSS3
